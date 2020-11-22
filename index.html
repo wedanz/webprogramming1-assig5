@@ -1,207 +1,277 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title></title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
+  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      background-image: url("https://pub-static.fotor.com/static/web/site/features/backgrounds/images/Fotor-wall-background-image-2.jpg");
+    }
 
-body{
-background-image: url("https://pub-static.fotor.com/static/web/site/features/backgrounds/images/Fotor-wall-background-image-2.jpg");
-}
-.box{
-  width: 900px;
-  background:rgba(192,192,192,0.8);
-  padding: 40px;
-  text-align: center;
-  margin: auto;
-  margin-top: 5%;
-  margin-bottom: 3%;
-  color: white;
-  text-shadow: 2px 2px 5px #D6ED17FF;
-  font-family: 'Century Gothic',sans-serif;
-  font-weight: 700;
-  box-shadow: 0 0 100px white;
-}
-.box-bordered{
-border-radius: 10px;
-	border: 1px solid black;
-	margin-left:auto; 
-    margin-right:auto;
-	margin-top: 75px;
-}
+    .box {
+      width: 900px;
+      background: rgba(192, 192, 192, 0.8);
+      padding: 40px;
+      text-align: center;
+      margin: auto;
+      margin-top: 5%;
+      margin-bottom: 3%;
+      color: white;
+      text-shadow: 2px 2px 5px #D6ED17FF;
+      font-family: 'Century Gothic', sans-serif;
+      font-weight: 700;
+      box-shadow: 0 0 100px white;
+    }
 
+    .box-bordered {
+      border-radius: 10px;
+      border: 1px solid black;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 75px;
+    }
 
-td{
-border-radius: 10px;
-max-width: 500px;
-max-height: 500px;
-padding: 5px 35px;
-}
+    .box-bordered-first {
+      border-radius: 10px;
+      border: 1px solid black;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 15px;
+    }
 
-.header{
-margin: 0;
-}
+    td {
+      border-radius: 10px;
+      max-width: 500px;
+      max-height: 500px;
+      padding: 5px 35px;
+    }
 
-.td-photo{
-padding:0;
-max-width: 320px;
-text-align: left;
-border: 5px dashed #D6ED17FF;
+    .header {
+      margin: 0;
+    }
 
-}
+    .td-photo {
+      padding: 0;
+      max-width: 320px;
+      text-align: left;
+      border: 5px dashed #D6ED17FF;
+    }
 
-.dashed-td-photo{
-margin:0;
-padding: 15px;
-border-radius: 5px;
-	box-shadow: 0 0 20px white;
-}
+    .dashed-td-photo {
+      margin: 0;
+      padding: 15px;
+      border-radius: 5px;
+      box-shadow: 0 0 20px white;
+    }
 
-.td-photo h3{
-margin: 10px;
-}
+    .td-photo h3 {
+      margin: 10px;
+    }
 
-.photo{
-width:300px;
-height:300px;
-border-radius: 50%;
-}
+    .photo {
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+    }
 
-.icon{
-vertical-align: middle;
-margin:0px;
-padding:0px;
-}
+    .icon {
+      vertical-align: middle;
+      margin: 0px;
+      padding: 0px;
+    }
 
-.icon-small{
-height:32px;
-width:32px;
+    .icon-small {
+      height: 32px;
+      width: 32px;
+    }
 
-}
-.icon-medium{
-height:48px;
-width:48px;
-}
+    .icon-medium {
+      height: 48px;
+      width: 48px;
+    }
 
-.space{
-height:30px;
-}
+    .space {
+      height: 30px;
+    }
 
-ul li::before {
-  content: "\2022";
-  color: black;
-  font-weight: bold;
-  display: inline-block; 
-  width: 1em;
-  margin-left: -1em;
-}
-ul p {
-color:black;
-}
+    ul li::before {
+      content: "\2022";
+      color: black;
+      font-weight: bold;
+      display: inline-block;
+      width: 1em;
+      margin-left: -1em;
+    }
 
-.background td{
-text-align: left;
-}
+    ul p {
+      color: black;
+    }
 
-.skill{
-margin: 0px;
-padding: 0px;
-}
+    .background td {
+      text-align: left;
+    }
 
-.skill td{
-white-space: nowrap;
+    .skill {
+      margin: 0px;
+      padding: 0px;
+    }
 
-}
+    .skill td {
+      white-space: nowrap;
+    }
 
-}
-
-</style>
+    }
+  </style>
 </head>
+
 <body>
-<div class="box">
-<table class="box-bordered">
-<tr><td colspan=2 class="space"></td><td rowspan=6></td></tr>
-<tr>
-<td><h3 class="header"><img src="https://img.icons8.com/pastel-glyph/2x/edit--v1.png" class="icon icon-small"> About Me</h3>
+  <div class="box">
+    <table class="box-bordered-first">
+      <tr>
+        <td colspan=2 class="space"></td>
+        <td rowspan=6></td>
+      </tr>
+      <tr>
+        <td>
+          <h3 class="header"><img src="https://img.icons8.com/pastel-glyph/2x/edit--v1.png" class="icon icon-small">
+            About Me</h3>
+        </td>
+        <td rowspan=5 class="td-photo">
+          <div class="dashed-td-photo"><img src="myimage.jpg" class="photo">
+            <h3>Name: Jonathan Christie</h3>
+            <h3>Nationality: Indonesian</h3>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>Enthusiastic technology student at Kyoto College of Graduate Studies for Informatics, Japan that endlessly
+          seeking opportunities to develop more advance technology</td>
+      </tr>
+      <tr>
+        <td>
+          <h3 class="header"><img src="https://img.icons8.com/pastel-glyph/2x/theatre-mask.png" class="icon icon-small"> Hobbies</h3>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <h1><img src="https://img.icons8.com/pastel-glyph/2x/monitor.png" class="icon icon-medium">&nbsp; | &nbsp;
+            <img src="https://img.icons8.com/pastel-glyph/2x/music.png" class="icon icon-medium">&nbsp; | &nbsp;
+              <img src="https://img.icons8.com/pastel-glyph/2x/3d-glasses.png" class="icon icon-medium">
+        </td>
+      </tr>
+      <tr>
+        <td colspan=2 class="space"></td>
+      </tr>
+      <tr>
+        <td colspan=3 class="space"></td>
+      </tr>
+    </table>
 
-<td rowspan=5 class="td-photo"><div class="dashed-td-photo"><img src="IMG.JPG" class="photo"><h3> Name: Jonathan Christie</h3>
-<h3>Nationality: Indonesian</h3></div></td>
+    <table class="box-bordered background">
+      <tr>
+        <td colspan=2 class="space"></td>
+      </tr>
+      <tr>
+        <th>
+          <h3 class="header"><img src="https://img.icons8.com/pastel-glyph/2x/saving-book.png" class="icon icon-small"> Education</h3>
+        </th>
+        <th rowspan=2></th>
+        <th>
+          <h3 class="header"><img src="https://img.icons8.com/pastel-glyph/2x/certificate.png" class="icon icon-small"> Professional Skill</h3>
+        </th>
+      </tr>
+      <tr>
+        <td>
+          <ul>
+            <li>Kyoto College of Graduate Studies for Informatics</li>
+            <p>2020 - until now </p>
+            <li>Maranatha Christian University</li>
+            <p>2014 - 2018 | Bachelor of Information Technology</p>
+          </ul>
+        </td>
 
-</td>
-
-</tr>
-<tr>
-<td>Enthusiastic technology student at Kyoto College of Graduate Studies for Informatics, Japan that endlessly seeking opportunities to develop more advance technology</td>
-</tr>
-<tr>
-<td><h3 class="header"><img src="
-https://img.icons8.com/pastel-glyph/2x/theatre-mask.png" class="icon icon-small"> Hobbies</h3></td>
-</tr>
-<tr>
-<td><h1><img src="https://img.icons8.com/pastel-glyph/2x/monitor.png" class="icon icon-medium">&nbsp; | &nbsp;<img src="https://img.icons8.com/pastel-glyph/2x/music.png" class="icon icon-medium">&nbsp; | &nbsp;<img src="
-https://img.icons8.com/pastel-glyph/2x/3d-glasses.png" class="icon icon-medium"></td>
-</tr>
-<tr><td colspan=2 class="space"></td></tr>
-<tr><td colspan=3 class="space"></td></tr>
-</table>
-
-<table class="box-bordered background">
-<tr><td colspan=2 class="space"></td></tr>
-<tr><th><h3 class="header"><img src="
-https://img.icons8.com/pastel-glyph/2x/saving-book.png" class="icon icon-small"> Education</h3></th>
-<th rowspan=2></th>
-<th><h3 class="header"><img src="
-https://img.icons8.com/pastel-glyph/2x/certificate.png" class="icon icon-small"> Professional Skill</h3></th></tr>
-<tr>
-<td><ul>
-<li>Kyoto College of Graduate Studies for Informatics</li>
-<p>2020 - until now </p>
-  <li>Maranatha Christian University</li>
-  <p>2014 - 2018 | Bachelor of Information Technology</p>
-</ul></td>
-
-<td><ul>
-<table class="skill">
-<tr>
-<td><li>HTML 5</li></td>
-<td><li>PHP</li></td>
-</tr>
-<tr>
-<td><li>CSS</li></td>
-<td><li>Javascript</li></td>
-</tr>
-<tr>
-<td><li>Jquery</li></td>
-<td><li>JSON</li></td>
-</tr>
-<tr>
-<td><li>MySQL</li></td>
-<td><li>Phyton</li></td>
-</tr>
-<tr>
-<td><li>Java</li></td>
-<td><li>C#</li></td>
-</tr>
-</table>
-</ul>
-</td>
-</tr>
-
-<tr></tr>
-</table>
+        <td>
+          <ul>
+            <table class="skill">
+              <tr>
+                <td>
+                  <li>HTML 5</li>
+                </td>
+                <td>
+                  <li>PHP</li>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <li>CSS</li>
+                </td>
+                <td>
+                  <li>Javascript</li>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <li>Jquery</li>
+                </td>
+                <td>
+                  <li>JSON</li>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <li>MySQL</li>
+                </td>
+                <td>
+                  <li>Phyton</li>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <li>Java</li>
+                </td>
+                <td>
+                  <li>C#</li>
+                </td>
+              </tr>
+            </table>
+          </ul>
+        </td>
+      </tr>
+      <tr></tr>
+    </table>
 
 
-<table class="box-bordered">
-<tr><td colspan=2 class="space"></td></tr>
-<tr><th colspan=2><h3 class="header"><img src="
-https://img.icons8.com/pastel-glyph/2x/literature--v1.png" class="icon icon-small"> Current Education</h3></th></tr>
-<tr><td colspan=2 class="space"></td></tr>
-<tr><td><h3>KCGI location </h3>
-<iframe width="320" height="240" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3268.8651882178333!2d135.75036185162764!3d34.98504138026602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600108a8228bbce9%3A0x223ec5b1e1af9e3!2z5Lqs6YO944Kz44Oz44OU44Ol44O844K_5a2m6ZmiIOS6rOmDvemnheWJjeagoQ!5e0!3m2!1sja!2sjp!4v1545889595657" style="border:0" allowfullscreen=""></iframe></td>
-<td><h3>KCGI introduction video</h3>
-<iframe width="320" height="240" src="https://www.youtube.com/embed/DzvRnE3O44o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-</tr>
-<tr><td></td></tr>
-</div>
+    <table class="box-bordered">
+      <tr>
+        <td colspan=2 class="space"></td>
+      </tr>
+      <tr>
+        <th colspan=2>
+          <h3 class="header"><img src="https://img.icons8.com/pastel-glyph/2x/literature--v1.png" class="icon icon-small"> Current Education</h3>
+        </th>
+      </tr>
+      <tr>
+        <td colspan=2 class="space"></td>
+      </tr>
+      <tr>
+        <td>
+          <h3>KCGI location </h3>
+          <iframe width="320" height="240"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3268.8651882178333!2d135.75036185162764!3d34.98504138026602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600108a8228bbce9%3A0x223ec5b1e1af9e3!2z5Lqs6YO944Kz44Oz44OU44Ol44O844K_5a2m6ZmiIOS6rOmDvemnheWJjeagoQ!5e0!3m2!1sja!2sjp!4v1545889595657"
+            style="border:0" allowfullscreen=""></iframe>
+        </td>
+        <td>
+          <h3>KCGI introduction video</h3>
+          <iframe width="320" height="240" src="https://www.youtube.com/embed/DzvRnE3O44o" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+      </tr>
+  </div>
 </body>
+
 </html>
